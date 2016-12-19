@@ -1,976 +1,1682 @@
-2.19.128.0/20
-4.0.0.0/8
-5.9.0.0/16
-5.28.56.0/21
-5.35.224.0/19
-5.39.0.0/17
-5.45.119.0/24
-5.48.0.0/14
-5.77.32.0/19
-5.79.64.0/18
-5.134.117.0/24
-5.135.0.0/16
-5.153.224.0/21
-5.178.64.0/21
-5.196.0.0/16
-5.226.176.0/24
-8.0.0.0/8
-13.64.0.0/11
-13.96.0.0/13
-13.104.0.0/14
-17.0.0.0/8
-23.0.0.0/12
-23.20.0.0/14
-23.32.0.0/11
-23.64.0.0/14
-23.80.0.0/15
-23.82.0.0/16
-23.83.0.0/17
-23.83.128.0/18
-23.83.192.0/20
-23.92.16.0/20
-23.96.0.0/13
-23.104.0.0/16
-23.105.0.0/17
-23.105.128.0/18
-23.106.160.0/19
-23.106.192.0/18
-23.107.0.0/16
-23.108.0.0/15
-23.110.0.0/16
-23.111.0.0/18
-23.192.0.0/11
-23.226.64.0/20
-23.226.224.0/20
-23.227.32.0/19
-23.227.192.0/20
-23.229.128.0/17
-23.235.32.0/20
-23.236.48.0/20
-23.244.0.0/15
-23.246.192.0/18
-23.254.128.0/17
-24.120.0.0/16
-27.54.80.0/24
-27.121.64.0/21
-27.124.116.0/24
-27.126.207.0/24
-31.3.208.0/20
-31.22.4.0/24
-31.31.40.0/21
-31.31.72.0/21
-31.170.178.0/24
-31.186.25.0/24
-31.193.128.0/20
-31.220.17.0/24
-31.220.110.0/24
-31.222.48.0/23
-31.222.72.0/23
-34.192.0.0/10
-35.184.0.0/13
-37.48.64.0/18
-37.59.0.0/16
-37.97.128.0/17
-37.143.12.0/24
-37.148.209.0/24
-37.187.0.0/16
-37.208.111.0/24
-37.230.104.0/21
-38.0.0.0/8
-42.156.128.0/17
-43.249.38.0/23
-45.33.0.0/17
-45.34.0.0/15
-45.55.0.0/16
-45.79.0.0/16
-45.116.76.0/22
-46.17.0.0/21
-46.20.224.0/20
-46.28.104.0/21
-46.30.208.0/21
-46.105.0.0/16
-46.163.64.0/18
-46.166.136.0/21
-46.166.184.0/21
-46.229.160.0/20
-46.234.96.0/19
-46.236.32.0/20
-46.252.156.0/24
-46.255.120.0/24
-47.88.0.0/14
-50.6.0.0/15
-50.16.0.0/14
-50.21.176.0/20
-50.22.0.0/15
-50.28.0.0/17
-50.31.128.0/17
-50.58.0.0/15
-50.62.0.0/15
-50.87.0.0/16
-50.93.192.0/20
-50.97.0.0/16
-50.115.112.0/20
-50.116.0.0/17
-50.118.0.0/17
-51.254.0.0/15
-52.0.0.0/10
-52.64.0.0/12
-52.84.0.0/14
-52.88.0.0/13
-52.145.0.0/16
-52.146.0.0/15
-52.148.0.0/14
-52.152.0.0/13
-52.160.0.0/11
-52.192.0.0/11
-54.64.0.0/11
-54.144.0.0/12
-54.160.0.0/11
-54.224.0.0/11
-58.64.147.0/24
-58.64.176.0/24
-58.64.212.0/24
-58.64.229.0/24
-59.188.3.0/24
-59.188.16.0/24
-59.188.18.0/24
-59.188.24.0/24
-59.188.30.0/24
-62.22.0.0/16
-62.77.32.0/19
-62.109.16.0/21
-62.128.0.0/19
-62.138.128.0/18
-62.149.128.0/19
-62.151.176.0/21
-62.207.0.0/17
-62.210.0.0/16
-62.212.64.0/19
-62.213.240.0/20
-63.135.80.0/20
-63.141.128.0/19
-63.247.128.0/20
-64.4.0.0/18
-64.6.224.0/19
-64.12.0.0/16
-64.13.192.0/18
-64.17.128.0/18
-64.20.32.0/19
-64.29.144.0/20
-64.30.224.0/20
-64.31.0.0/18
-64.37.48.0/20
-64.50.160.0/19
-64.59.64.0/18
-64.62.128.0/17
-64.71.32.0/19
-64.71.128.0/18
-64.78.160.0/20
-64.90.32.0/19
-64.98.0.0/15
-64.111.96.0/19
-64.131.64.0/19
-64.136.0.0/18
-64.150.176.0/20
-64.188.48.0/20
-64.191.128.0/18
-64.207.128.0/18
-64.210.128.0/19
-64.233.160.0/19
-64.235.144.0/20
-65.19.128.0/18
-65.49.0.0/17
-65.52.0.0/14
-65.60.0.0/18
-65.240.0.0/13
-65.248.0.0/14
-65.252.0.0/15
-65.254.224.0/19
-66.6.16.0/20
-66.6.32.0/20
-66.7.192.0/19
-66.33.192.0/19
-66.49.128.0/17
-66.55.80.0/20
-66.96.128.0/18
-66.115.0.0/18
-66.116.128.0/17
-66.128.48.0/20
-66.147.240.0/20
-66.152.64.0/19
-66.155.0.0/17
-66.170.240.0/20
-66.175.0.0/18
-66.175.208.0/20
-66.192.0.0/14
-66.199.128.0/18
-66.228.0.0/20
-66.228.32.0/19
-66.230.128.0/18
-66.231.80.0/20
-66.241.144.0/20
-66.254.96.0/19
-67.20.48.0/20
-67.23.128.0/20
-67.23.224.0/19
-67.43.0.0/20
-67.43.160.0/20
-67.55.64.0/18
-67.59.128.0/18
-67.159.0.0/18
-67.195.0.0/16
-67.199.248.0/24
-67.209.224.0/20
-67.210.96.0/19
-67.211.208.0/20
-67.212.224.0/20
-67.214.160.0/19
-67.214.208.0/20
-67.215.224.0/19
-67.220.48.0/20
-67.222.32.0/19
-67.225.128.0/17
-67.227.128.0/17
-67.228.0.0/16
-67.231.240.0/20
-68.71.240.0/20
-68.168.96.0/20
-68.169.64.0/19
-68.169.96.0/20
-68.172.0.0/14
-68.178.128.0/17
-68.233.224.0/19
-69.13.0.0/16
-69.39.224.0/20
-69.42.208.0/20
-69.49.96.0/19
-69.50.128.0/20
-69.58.176.0/20
-69.64.144.0/20
-69.65.0.0/18
-69.89.16.0/20
-69.147.64.0/18
-69.163.128.0/17
-69.165.96.0/20
-69.167.128.0/18
-69.171.224.0/19
-69.184.0.0/13
-69.192.0.0/16
-69.195.64.0/18
-70.32.64.0/18
-70.32.128.0/19
-70.37.0.0/17
-70.37.128.0/18
-70.40.192.0/19
-70.84.0.0/14
-72.11.128.0/19
-72.21.80.0/20
-72.21.192.0/19
-72.26.224.0/20
-72.29.64.0/19
-72.41.0.0/16
-72.47.192.0/18
-72.52.0.0/16
-72.167.0.0/16
-72.246.0.0/15
-72.251.192.0/18
-74.50.0.0/19
-74.52.0.0/14
-74.82.0.0/18
-74.86.0.0/16
-74.112.184.0/22
-74.113.152.0/22
-74.117.176.0/21
-74.117.216.0/21
-74.119.144.0/22
-74.120.180.0/22
-74.125.0.0/16
-74.206.224.0/19
-74.207.224.0/19
-74.208.0.0/16
-74.220.192.0/19
-75.80.0.0/13
-75.98.160.0/20
-75.101.128.0/17
-75.119.192.0/19
-75.125.0.0/16
-75.126.0.0/16
-76.9.0.0/19
-76.72.160.0/20
-76.74.128.0/17
-77.66.112.0/21
-77.72.0.0/21
-77.72.144.0/21
-77.91.232.0/21
-77.92.64.0/19
-77.104.83.0/24
-77.238.184.0/23
-77.244.240.0/20
-77.247.176.0/21
-78.40.32.0/21
-78.46.0.0/15
-78.109.80.0/20
-78.129.128.0/17
-78.140.128.0/18
-79.124.76.0/24
-79.170.40.0/21
-80.67.16.0/20
-80.68.80.0/20
-80.69.64.0/19
-80.74.144.0/20
-80.179.147.0/24
-80.237.128.0/17
-80.248.224.0/20
-80.254.64.0/20
-81.2.192.0/18
-81.16.32.0/20
-81.19.145.0/24
-81.19.176.0/20
-81.88.32.0/20
-81.88.57.0/24
-81.89.255.0/24
-81.169.145.0/24
-81.169.149.0/24
-81.169.218.0/24
-81.171.0.0/18
-81.171.96.0/19
-82.192.64.0/19
-82.205.128.0/17
-82.208.0.0/18
-82.223.0.0/16
-83.68.31.0/24
-83.84.0.0/14
-83.149.64.0/18
-83.222.124.0/22
-84.20.200.0/24
-84.211.0.0/17
-85.10.192.0/18
-85.13.130.0/24
-85.13.136.0/24
-85.13.139.0/24
-85.13.155.0/24
-85.17.0.0/16
-85.30.128.0/18
-85.111.0.0/17
-85.131.135.0/24
-85.195.64.0/18
-85.222.232.0/22
-85.233.160.0/19
-85.233.192.0/19
-85.236.152.0/21
-85.252.0.0/16
-87.98.128.0/17
-87.106.0.0/16
-87.118.64.0/18
-87.230.0.0/17
-87.236.19.0/24
-88.80.0.0/19
-88.80.184.0/21
-88.81.154.0/23
-88.85.64.0/19
-88.86.112.0/20
-88.198.0.0/16
-88.208.9.0/24
-88.208.16.0/21
-88.208.36.0/22
-88.208.192.0/18
-88.215.192.0/19
-89.31.143.0/24
-89.45.196.0/22
-89.108.91.0/24
-89.185.32.0/19
-89.187.85.0/24
-89.219.32.0/24
-89.250.176.0/20
-90.156.192.0/19
-90.192.0.0/11
-91.102.8.0/21
-91.109.248.0/21
-91.121.0.0/16
-91.123.100.0/24
-91.143.80.0/20
-91.186.0.0/19
-91.193.20.0/22
-91.196.126.0/23
-91.203.68.0/22
-91.204.208.0/22
-91.207.58.0/23
-91.210.232.0/22
-91.216.63.0/24
-91.226.176.0/24
-91.227.220.0/22
-92.43.216.0/22
-92.48.64.0/18
-93.0.0.0/11
-93.88.240.0/20
-93.89.224.0/24
-93.95.224.0/21
-94.23.0.0/16
-94.73.145.0/24
-94.73.150.0/24
-94.75.192.0/18
-94.102.48.0/20
-94.126.16.0/21
-94.138.32.0/19
-94.138.200.0/24
-94.138.204.0/22
-94.152.50.0/24
-94.242.192.0/18
-95.47.138.0/24
-95.128.128.0/21
-95.131.186.0/24
-95.131.232.0/24
-95.140.35.0/24
-95.141.32.0/20
-95.142.101.0/24
-95.143.192.0/20
-95.156.64.0/19
-95.168.192.0/20
-95.174.0.0/19
-95.211.0.0/16
-96.0.0.0/16
-96.16.0.0/15
-96.31.32.0/20
-96.31.64.0/19
-96.44.128.0/18
-96.45.80.0/20
-96.126.96.0/19
-96.127.128.0/18
-97.64.0.0/17
-97.74.0.0/16
-98.124.128.0/17
-98.136.0.0/14
-98.142.96.0/20
-101.0.98.0/24
-101.0.107.0/24
-101.0.112.0/24
-103.6.196.0/22
-103.8.152.0/22
-103.14.245.0/24
-103.20.236.0/22
-103.22.249.0/24
-103.23.20.0/22
-103.43.44.0/22
-103.51.144.0/22
-103.206.40.0/22
-103.215.189.0/24
-104.16.0.0/12
-104.37.244.0/22
-104.40.0.0/13
-104.64.0.0/10
-104.131.0.0/16
-104.152.168.0/22
-104.154.0.0/15
-104.195.64.0/18
-104.196.0.0/14
-104.202.0.0/15
-104.208.0.0/13
-104.223.0.0/17
-104.236.0.0/16
-104.237.48.0/20
-104.244.40.0/21
-104.245.144.0/22
-104.254.80.0/21
-107.20.0.0/14
-107.154.0.0/16
-107.155.192.0/18
-107.161.16.0/20
-107.167.160.0/19
-107.170.0.0/16
-107.178.64.0/18
-107.178.192.0/18
-107.180.0.0/17
-107.182.160.0/20
-107.182.224.0/20
-107.183.0.0/16
-108.160.160.0/20
-108.163.192.0/18
-108.166.160.0/19
-108.167.128.0/18
-108.168.128.0/17
-108.174.0.0/20
-108.175.0.0/20
-109.68.32.0/21
-109.69.56.0/22
-109.73.64.0/20
-109.123.64.0/18
-109.169.0.0/18
-109.201.128.0/19
-109.206.166.0/23
-109.206.188.0/23
-109.206.190.0/24
-109.233.156.0/22
-109.235.56.0/21
-111.92.236.0/23
-111.118.212.0/22
-112.213.80.0/20
-113.10.181.0/24
-113.10.214.0/24
-115.28.0.0/15
-116.251.211.0/24
-116.251.224.0/24
-117.18.114.0/24
-117.121.0.0/17
-118.99.0.0/18
-118.178.0.0/16
-118.244.0.0/16
-120.26.0.0/15
-120.76.0.0/14
-121.40.0.0/14
-122.10.112.0/21
-123.56.0.0/15
-123.112.0.0/12
-123.242.224.0/24
-124.16.0.0/15
-128.65.192.0/21
-128.121.0.0/16
-128.143.0.0/16
-128.149.0.0/16
-129.121.0.0/16
-130.211.0.0/16
-131.84.0.0/16
-131.229.0.0/16
-132.148.0.0/16
-132.174.0.0/16
-134.119.0.0/16
-137.78.0.0/16
-137.117.0.0/16
-138.201.0.0/16
-139.162.0.0/16
-139.199.0.0/16
-140.211.0.0/16
-141.105.65.0/24
-141.105.124.0/23
-141.138.130.0/24
-141.138.192.0/20
-141.211.0.0/16
-141.255.181.0/24
-142.4.0.0/19
-143.69.0.0/16
-143.84.0.0/16
-143.95.0.0/16
-143.228.0.0/16
-144.76.0.0/16
-146.148.0.0/17
-147.9.0.0/16
-147.67.0.0/17
-147.202.0.0/16
-148.251.0.0/16
-149.47.0.0/16
-149.126.72.0/21
-149.154.164.0/22
-149.174.0.0/16
-149.202.0.0/16
-149.210.128.0/17
-151.80.0.0/16
-151.101.0.0/16
-151.138.0.0/16
-152.19.0.0/16
-154.35.0.0/16
-155.94.128.0/17
-155.133.40.0/22
-155.188.0.0/16
-157.240.0.0/16
-158.69.0.0/16
-159.33.0.0/16
-159.137.0.0/16
-159.174.0.0/16
-159.203.0.0/16
-160.68.0.0/16
-160.153.0.0/16
-161.47.0.0/16
-161.69.0.0/16
-162.144.0.0/16
-162.158.0.0/15
-162.212.40.0/21
-162.220.4.0/22
-162.220.56.0/21
-162.221.200.0/21
-162.223.88.0/21
-162.243.0.0/16
-162.249.104.0/21
-162.251.0.0/21
-162.251.80.0/22
-162.251.84.0/23
-162.251.86.0/24
-162.253.124.0/22
-162.254.144.0/21
-162.255.84.0/22
-162.255.116.0/22
-163.53.78.0/24
-163.172.0.0/16
-165.83.0.0/16
-166.62.0.0/17
-167.88.144.0/20
-167.114.0.0/16
-168.144.0.0/16
-168.235.64.0/18
-170.75.240.0/20
-170.149.0.0/16
-171.64.0.0/14
-172.81.116.0/22
-172.217.0.0/16
-173.192.0.0/15
-173.194.0.0/16
-173.198.192.0/18
-173.199.128.0/18
-173.201.0.0/16
-173.228.128.0/19
-173.230.128.0/19
-173.236.128.0/17
-173.239.0.0/18
-173.247.224.0/19
-173.252.64.0/18
-173.252.192.0/18
-173.254.0.0/17
-173.254.192.0/18
-173.255.112.0/20
-173.255.192.0/18
-174.36.0.0/15
-174.120.0.0/14
-174.127.64.0/18
-174.129.0.0/16
-174.132.0.0/15
-176.9.0.0/16
-176.28.0.0/18
-176.31.0.0/16
-176.53.21.0/24
-176.53.43.0/24
-176.58.96.0/19
-176.126.252.0/24
-178.32.0.0/15
-178.63.0.0/16
-178.73.192.0/18
-178.77.64.0/18
-178.79.128.0/18
-178.170.0.0/17
-178.210.88.0/22
-178.254.62.0/24
-180.179.160.0/19
-180.188.194.0/24
-180.235.134.0/24
-182.160.128.0/18
-182.173.77.0/24
-184.24.0.0/13
-184.72.0.0/15
-184.95.32.0/19
-184.104.0.0/15
-184.154.0.0/16
-184.164.128.0/19
-184.168.0.0/16
-184.169.128.0/17
-184.170.240.0/20
-184.172.0.0/15
-185.2.82.0/24
-185.4.226.0/23
-185.5.44.0/24
-185.7.34.0/24
-185.7.76.0/22
-185.9.116.0/22
-185.11.146.0/24
-185.24.96.0/22
-185.31.40.0/22
-185.31.120.0/24
-185.31.220.0/24
-185.41.88.0/22
-185.42.104.0/22
-185.53.176.0/22
-185.59.16.0/23
-185.66.140.0/24
-185.72.177.0/24
-185.104.28.0/22
-185.112.156.0/22
-185.116.212.0/22
-185.154.20.0/22
-188.40.0.0/16
-188.94.254.0/24
-188.121.224.0/19
-188.165.0.0/16
-188.225.16.0/24
-188.227.224.0/22
-192.0.64.0/18
-192.16.0.0/18
-192.30.252.0/22
-192.64.112.0/21
-192.69.192.0/19
-192.73.232.0/21
-192.81.128.0/21
-192.95.0.0/18
-192.99.0.0/16
-192.104.182.0/23
-192.104.184.0/21
-192.104.192.0/19
-192.104.224.0/21
-192.124.249.0/24
-192.151.136.0/21
-192.154.96.0/20
-192.155.80.0/20
-192.157.192.0/18
-192.163.192.0/18
-192.169.128.0/17
-192.184.80.0/20
-192.185.0.0/16
-192.195.77.0/24
-192.200.96.0/19
-192.211.48.0/20
-192.229.64.0/18
-192.230.64.0/18
-192.232.192.0/18
-192.241.128.0/17
-192.252.144.0/20
-192.254.128.0/17
-193.70.0.0/17
-193.86.0.0/16
-193.96.188.0/24
-193.109.247.0/24
-193.111.95.0/24
-193.169.207.0/24
-193.189.135.0/24
-193.194.138.0/24
-193.227.106.0/24
-193.234.198.0/24
-193.234.222.0/24
-193.238.27.0/24
-193.238.80.0/24
-194.0.59.0/24
-194.0.197.0/24
-194.9.94.0/23
-194.28.8.0/22
-194.55.26.0/24
-194.55.30.0/24
-194.63.248.0/23
-194.90.0.0/16
-194.126.200.0/24
-194.132.196.0/22
-194.145.126.0/24
-194.195.0.0/17
-194.246.78.0/24
-195.8.214.0/23
-195.20.12.0/22
-195.20.40.0/21
-195.35.109.0/24
-195.54.62.0/23
-195.64.158.0/23
-195.74.36.0/22
-195.78.228.0/22
-195.80.96.0/19
-195.142.2.0/24
-195.149.84.0/24
-195.154.0.0/16
-195.182.128.0/19
-195.191.164.0/24
-195.211.221.0/24
-198.2.192.0/18
-198.15.64.0/18
-198.23.48.0/20
-198.23.64.0/18
-198.24.128.0/18
-198.27.64.0/18
-198.35.26.0/23
-198.46.80.0/20
-198.49.23.0/24
-198.52.96.0/19
-198.54.112.0/20
-198.57.128.0/17
-198.58.80.0/20
-198.58.96.0/19
-198.71.128.0/17
-198.74.48.0/20
-198.74.96.0/19
-198.76.0.0/14
-198.136.48.0/20
-198.143.128.0/18
-198.154.192.0/18
-198.178.120.0/21
-198.185.159.0/24
-198.206.132.0/22
-198.251.80.0/20
-198.252.96.0/20
-198.254.96.0/20
-199.16.156.0/22
-199.19.92.0/22
-199.21.148.0/22
-199.27.148.0/22
-199.30.80.0/22
-199.34.228.0/22
-199.59.148.0/22
-199.59.240.0/22
-199.66.72.0/22
-199.71.32.0/20
-199.71.48.0/22
-199.80.52.0/22
-199.80.56.0/21
-199.83.128.0/21
-199.85.208.0/21
-199.88.56.0/21
-199.96.156.0/22
-199.101.132.0/22
-199.181.129.0/24
-199.181.130.0/23
-199.181.132.0/22
-199.184.144.0/21
-199.189.172.0/22
-199.193.112.0/21
-199.231.84.0/22
-199.233.80.0/24
-199.233.244.0/22
-199.253.28.0/22
-202.43.173.0/24
-202.55.82.0/24
-202.81.252.0/24
-202.82.128.0/17
-202.181.167.0/24
-202.181.185.0/24
-202.181.195.0/24
-202.181.196.0/24
-202.181.198.0/24
-203.124.96.0/19
-203.170.84.0/24
-203.174.80.0/21
-203.175.160.0/24
-203.208.42.0/23
-204.11.56.0/23
-204.13.248.0/22
-204.14.32.0/22
-204.14.88.0/21
-204.15.8.0/21
-204.15.248.0/21
-204.44.64.0/18
-204.69.221.0/24
-204.74.208.0/20
-204.140.16.0/20
-204.152.192.0/19
-204.239.14.0/23
-205.56.0.0/13
-205.64.0.0/11
-205.96.0.0/12
-205.112.0.0/14
-205.116.0.0/15
-205.178.128.0/18
-205.186.128.0/18
-205.196.120.0/22
-205.196.208.0/20
-205.203.96.0/19
-205.203.128.0/19
-205.204.64.0/19
-206.46.0.0/16
-206.108.48.0/21
-206.132.0.0/19
-206.190.128.0/19
-206.220.40.0/22
-206.220.216.0/21
-207.11.0.0/17
-207.46.0.0/16
-207.58.128.0/18
-207.66.128.0/17
-207.198.64.0/18
-207.200.64.0/18
-207.241.224.0/20
-207.244.64.0/18
-208.43.0.0/16
-208.64.120.0/21
-208.64.136.0/21
-208.66.72.0/21
-208.71.104.0/22
-208.71.192.0/21
-208.73.208.0/22
-208.75.148.0/22
-208.76.80.0/21
-208.77.48.0/21
-208.78.92.0/22
-208.79.32.0/21
-208.79.232.0/21
-208.80.4.0/22
-208.80.56.0/22
-208.81.128.0/21
-208.82.16.0/22
-208.82.112.0/21
-208.85.40.0/21
-208.86.184.0/21
-208.88.176.0/21
-208.91.196.0/23
-208.94.0.0/22
-208.94.232.0/22
-208.96.0.0/18
-208.101.0.0/18
-208.109.0.0/16
-208.113.128.0/17
-208.131.128.0/19
-209.58.128.0/20
-209.59.192.0/19
-209.95.32.0/19
-209.99.0.0/17
-209.126.96.0/19
-209.135.128.0/19
-209.141.32.0/19
-209.188.80.0/20
-209.200.0.0/18
-209.202.192.0/18
-209.237.128.0/18
-209.239.160.0/20
-209.240.64.0/19
-210.209.110.0/24
-212.7.192.0/21
-212.27.32.0/19
-212.58.244.0/24
-212.58.246.0/24
-212.69.160.0/19
-212.72.32.0/19
-212.91.6.0/23
-212.97.128.0/19
-212.118.156.0/23
-212.150.0.0/16
-212.198.128.0/17
-212.224.112.0/20
-213.33.0.0/17
-213.83.0.0/18
-213.108.104.0/21
-213.132.192.0/20
-213.138.96.0/19
-213.152.180.0/24
-213.174.128.0/19
-213.179.192.0/19
-213.186.32.0/19
-213.188.32.0/19
-213.239.192.0/18
-216.14.208.0/20
-216.17.96.0/20
-216.18.160.0/19
-216.21.224.0/20
-216.24.192.0/20
-216.55.144.0/20
-216.58.192.0/19
-216.70.64.0/18
-216.71.64.0/18
-216.86.144.0/20
-216.87.128.0/19
-216.92.0.0/16
-216.120.224.0/19
-216.139.208.0/20
-216.139.224.0/19
-216.146.32.0/20
-216.157.0.0/18
-216.157.64.0/19
-216.157.96.0/20
-216.169.240.0/20
-216.172.160.0/19
-216.177.144.0/20
-216.185.96.0/19
-216.197.96.0/19
-216.218.128.0/17
-216.239.32.0/19
-216.239.128.0/20
-216.250.112.0/20
-217.15.160.0/20
-217.26.48.0/20
-217.28.208.0/21
-217.64.160.0/21
-217.70.176.0/20
-217.118.168.0/22
-217.146.64.0/20
-217.160.0.0/16
-217.199.187.0/24
-219.76.0.0/14
-220.241.0.0/16
-221.228.0.0/14
-223.203.224.0/22
+iptables -t nat -A SHADOWSOCKS -p tcp -d 1.1.1.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 1.33.203.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 4.0.0.0/8 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 5.9.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 5.28.56.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 5.39.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 5.45.119.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 5.48.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 5.62.89.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 5.77.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 5.79.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 5.134.117.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 5.135.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 5.153.224.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 5.178.64.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 5.196.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 5.226.176.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 8.0.0.0/8 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 11.0.0.0/8 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 12.32.90.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 12.38.237.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 13.64.0.0/11 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 13.96.0.0/13 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 13.104.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 14.0.94.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 14.152.44.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.0.0.0/12 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.20.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.27.160.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.29.112.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.32.0.0/11 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.64.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.80.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.82.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.83.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.83.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.83.192.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.92.16.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.92.93.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.96.0.0/13 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.104.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.105.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.105.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.106.160.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.106.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.107.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.108.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.110.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.111.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.192.0.0/11 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.226.64.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.226.224.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.227.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.227.192.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.229.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.234.27.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.235.32.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.236.48.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.244.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.246.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.251.41.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.252.108.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.253.146.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 23.254.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 24.120.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 27.34.160.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 27.54.80.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 27.105.200.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 27.121.46.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 27.121.64.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 27.124.116.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 27.126.207.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 27.133.208.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 27.147.14.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.3.208.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.13.64.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.13.68.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.13.70.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.13.77.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.13.91.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.13.102.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.13.111.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.22.4.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.24.34.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.31.40.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.31.72.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.170.178.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.186.25.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.192.112.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.192.116.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.192.120.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.192.122.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.192.125.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.193.128.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.220.17.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.220.110.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.222.48.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 31.222.72.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 34.192.0.0/10 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 35.163.167.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 35.184.0.0/13 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 37.48.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 37.59.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 37.60.254.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 37.97.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 37.143.12.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 37.148.209.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 37.187.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 37.208.111.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 37.218.241.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 37.230.104.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 38.0.0.0/8 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 40.74.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 40.76.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 40.80.0.0/12 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 40.96.0.0/12 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 40.112.0.0/13 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 40.120.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 40.124.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 40.125.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 42.124.126.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 42.156.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 43.225.108.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 43.229.108.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 43.241.73.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 43.248.165.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 43.250.172.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 45.32.5.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 45.32.249.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 45.33.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 45.34.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 45.40.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 45.55.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 45.58.122.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 45.63.96.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 45.76.202.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 45.78.60.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 45.79.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 45.115.231.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 45.116.76.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 45.248.69.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.17.0.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.20.224.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.28.104.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.28.200.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.30.208.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.51.216.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.101.215.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.105.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.163.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.166.136.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.166.184.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.229.160.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.234.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.236.32.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.243.24.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.252.156.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 46.255.120.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 47.88.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 49.212.9.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 49.212.23.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 49.212.66.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 49.212.120.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 49.212.129.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 49.212.159.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 49.212.172.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 49.212.180.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 49.231.13.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.6.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.16.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.21.176.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.22.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.28.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.31.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.56.49.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.56.81.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.57.142.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.57.214.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.58.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.62.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.87.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.93.192.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.97.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.115.112.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.116.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.118.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 50.118.208.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 51.254.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 52.0.0.0/10 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 52.64.0.0/12 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 52.84.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 52.88.0.0/13 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 52.145.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 52.146.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 52.148.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 52.152.0.0/13 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 52.160.0.0/11 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 52.192.0.0/11 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 54.64.0.0/11 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 54.144.0.0/12 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 54.160.0.0/11 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 54.193.10.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 54.201.50.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 54.208.99.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 54.210.87.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 54.214.27.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 54.214.43.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 54.215.251.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 54.221.252.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 54.223.178.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 54.224.0.0/11 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 58.64.147.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 58.64.212.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 58.64.229.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 58.86.33.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 58.96.185.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 59.7.156.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 59.106.13.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 59.120.48.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 59.124.62.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 59.124.84.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 59.125.9.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 59.125.10.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 59.148.246.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 59.188.16.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 59.188.18.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 59.188.24.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 59.188.30.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 60.199.178.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 60.199.184.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 60.244.109.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 60.248.184.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 60.248.187.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 60.248.218.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 60.249.41.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 60.249.109.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 60.250.9.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 60.250.140.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 60.251.100.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.12.200.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.14.129.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.30.232.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.31.224.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.31.228.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.58.41.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.60.103.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.63.4.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.63.25.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.63.36.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.63.73.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.64.127.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.115.234.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.196.18.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.205.224.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.213.222.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.216.25.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.216.35.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.216.54.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.216.84.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.218.71.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.218.103.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.219.20.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.219.29.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.219.35.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.219.96.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.220.58.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.220.63.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.221.12.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.238.158.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.239.244.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 61.251.98.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 62.22.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 62.77.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 62.109.16.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 62.128.0.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 62.138.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 62.149.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 62.151.176.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 62.207.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 62.210.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 62.212.64.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 62.213.240.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 63.121.30.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 63.135.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 63.141.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 63.247.128.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.4.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.6.224.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.12.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.13.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.14.48.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.15.158.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.17.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.20.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.25.214.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.27.4.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.29.144.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.30.224.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.31.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.37.48.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.38.202.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.38.230.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.39.17.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.50.160.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.59.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.62.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.71.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.71.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.78.160.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.90.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.98.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.111.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.131.64.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.136.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.150.176.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.188.48.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.191.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.207.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.210.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.233.160.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.235.144.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.237.33.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.237.36.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.237.40.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 64.237.51.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 65.19.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 65.39.205.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 65.39.253.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 65.49.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 65.52.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 65.60.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 65.111.169.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 65.240.0.0/13 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 65.248.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 65.252.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 65.254.224.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.6.16.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.6.32.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.7.192.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.33.192.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.39.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.39.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.45.103.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.49.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.55.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.55.150.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.96.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.115.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.115.130.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.115.170.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.116.108.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.116.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.117.3.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.128.48.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.147.240.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.152.64.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.155.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.160.183.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.170.240.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.175.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.175.208.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.187.65.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.192.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.199.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.215.3.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.220.144.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.228.0.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.228.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.230.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.231.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.232.147.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.241.144.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.252.139.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 66.254.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.20.48.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.23.1.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.23.36.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.23.128.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.23.224.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.43.0.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.43.160.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.55.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.59.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.159.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.195.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.199.146.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.199.248.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.205.102.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.207.139.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.209.224.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.210.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.211.208.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.212.224.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.214.160.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.214.208.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.215.8.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.215.224.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.217.34.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.217.234.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.220.48.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.222.17.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.222.23.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.222.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.222.152.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.225.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.227.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.228.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 67.231.240.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 68.68.107.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 68.71.240.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 68.87.41.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 68.168.96.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 68.169.64.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 68.169.96.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 68.172.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 68.178.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 68.233.35.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.10.32.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.13.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.28.53.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.28.199.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.31.136.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.39.224.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.42.208.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.49.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.50.128.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.58.176.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.61.53.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.63.176.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.64.144.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.64.224.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.65.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.67.166.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.89.16.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.147.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.163.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.165.96.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.167.127.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.167.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.169.43.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.171.224.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.172.201.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.184.0.0/13 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.195.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.197.18.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 69.197.185.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 70.32.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 70.32.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 70.33.246.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 70.37.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 70.37.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 70.39.184.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 70.40.192.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 70.84.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 72.11.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 72.13.87.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 72.20.18.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 72.21.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 72.21.192.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 72.26.224.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 72.29.64.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 72.41.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 72.47.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 72.51.24.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 72.52.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 72.167.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 72.246.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 72.249.53.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 72.251.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 73.67.146.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.6.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.50.0.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.52.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.82.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.86.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.112.184.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.113.152.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.115.2.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.117.178.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.117.216.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.119.144.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.120.180.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.125.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.201.74.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.201.86.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.206.182.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.206.224.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.207.224.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.208.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.217.47.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 74.220.192.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 75.80.0.0/13 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 75.98.17.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 75.98.160.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 75.101.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 75.119.192.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 75.125.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 75.126.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 76.9.0.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 76.72.160.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 76.74.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 76.126.71.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 77.66.112.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 77.72.0.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 77.72.144.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 77.91.232.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 77.92.64.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 77.104.83.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 77.238.184.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 77.244.240.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 77.247.176.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 78.40.32.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 78.46.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 78.109.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 78.129.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 78.140.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 79.124.76.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 79.170.40.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 80.67.16.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 80.68.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 80.69.64.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 80.74.144.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 80.179.147.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 80.237.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 80.248.224.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 80.254.64.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 81.2.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 81.16.32.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 81.19.145.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 81.19.176.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 81.88.32.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 81.88.57.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 81.89.255.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 81.169.145.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 81.169.149.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 81.169.218.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 81.171.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 81.171.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 82.195.64.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 82.205.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 82.208.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 82.223.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 83.66.162.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 83.68.31.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 83.84.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 83.149.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 83.222.124.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 83.222.226.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 84.20.200.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 84.211.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.10.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.13.130.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.13.136.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.13.139.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.13.155.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.17.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.30.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.111.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.131.135.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.159.232.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.190.255.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.195.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.222.232.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.233.160.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.233.192.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.236.152.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 85.252.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 86.59.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 87.98.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 87.106.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 87.118.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 87.230.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 87.236.19.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 88.80.0.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 88.80.184.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 88.81.154.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 88.85.64.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 88.86.112.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 88.150.154.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 88.198.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 88.208.9.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 88.208.16.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 88.208.28.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 88.208.36.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 88.208.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 88.215.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 89.31.143.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 89.45.196.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 89.108.91.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 89.146.4.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 89.185.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 89.187.85.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 89.219.32.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 89.248.169.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 90.156.192.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 90.192.0.0/11 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.102.8.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.109.248.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.121.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.123.100.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.143.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.186.0.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.193.20.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.196.126.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.203.68.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.204.208.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.207.58.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.210.232.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.216.63.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.226.176.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.227.220.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.244.71.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 91.250.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 92.43.216.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 92.48.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 93.0.0.0/11 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 93.88.240.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 93.89.224.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 93.95.224.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 93.184.220.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 94.23.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 94.31.2.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 94.73.145.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 94.73.150.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 94.75.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 94.102.48.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 94.126.16.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 94.138.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 94.138.200.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 94.138.204.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 94.152.50.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 94.199.252.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 94.199.255.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 94.242.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 95.47.138.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 95.128.128.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 95.131.186.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 95.131.232.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 95.140.35.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 95.142.101.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 95.143.192.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 95.168.192.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 95.174.0.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 95.211.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 96.0.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 96.16.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 96.31.32.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 96.31.64.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 96.44.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 96.45.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 96.64.0.0/11 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 96.96.0.0/12 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 96.112.0.0/13 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 96.120.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 96.124.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 96.126.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 96.127.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 97.64.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 97.74.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 98.124.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 98.136.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 98.142.96.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 99.192.247.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 99.226.246.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 101.0.112.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 101.78.204.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 101.78.211.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 101.78.230.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.3.60.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.4.200.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.6.86.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.6.196.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.6.244.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.8.25.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.8.152.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.11.101.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.11.103.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.14.245.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.15.135.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.15.185.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.15.192.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.15.194.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.17.8.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.20.236.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.21.59.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.21.180.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.22.249.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.23.20.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.23.108.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.29.70.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.39.78.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.43.44.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.44.63.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.51.144.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.55.193.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.56.102.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.68.66.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.198.0.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.206.40.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.215.189.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.224.22.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.224.182.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.224.212.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.244.55.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.247.141.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 103.254.209.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.16.0.0/12 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.37.244.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.40.0.0/13 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.64.0.0/10 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.130.4.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.130.74.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.130.103.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.130.110.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.130.124.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.130.254.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.131.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.152.168.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.154.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.156.48.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.156.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.195.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.196.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.202.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.208.0.0/13 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.223.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.236.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.237.48.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.238.160.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.238.182.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.239.175.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.244.40.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.245.144.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 104.254.80.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.2.112.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.184.2.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.186.19.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.186.31.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.186.119.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.186.120.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.187.34.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.187.38.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.187.40.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.187.49.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.187.50.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.187.55.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.187.91.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.187.94.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.187.97.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.187.98.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 106.187.101.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.6.165.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.6.183.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.20.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.152.16.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.154.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.155.87.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.155.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.161.16.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.167.160.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.170.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.178.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.178.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.180.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.181.178.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.182.160.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.182.224.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.183.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.191.52.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 107.191.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.59.3.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.59.4.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.61.48.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.61.74.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.61.145.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.61.169.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.62.192.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.160.160.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.163.174.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.163.184.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.163.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.166.160.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.167.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.168.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.174.0.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.174.58.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 108.175.0.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 109.68.32.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 109.69.56.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 109.73.64.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 109.73.234.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 109.123.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 109.169.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 109.199.126.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 109.201.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 109.202.117.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 109.206.166.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 109.206.188.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 109.206.190.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 109.233.156.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 109.235.56.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 110.45.152.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 110.76.141.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 110.232.112.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 110.232.140.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 111.92.236.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 111.118.212.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 112.78.117.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 112.78.211.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 112.121.100.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 112.213.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 112.218.71.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 113.10.181.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 113.10.214.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 113.196.56.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 113.196.240.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 114.23.33.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 114.32.57.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 114.32.70.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 114.32.85.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 114.32.230.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 114.32.254.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 114.34.105.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 114.34.170.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 114.179.231.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 115.28.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 115.68.20.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 115.126.22.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 115.166.150.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 116.58.172.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 116.251.204.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 116.251.211.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 116.251.224.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 117.18.105.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 117.18.114.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 117.18.232.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 117.56.4.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 117.56.33.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 117.56.132.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 117.121.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 118.21.169.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 118.99.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 118.139.174.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 118.140.171.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 118.143.30.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 118.143.65.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 118.143.75.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 118.163.169.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 118.163.170.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 118.165.123.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 118.178.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 118.193.211.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 118.238.12.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 118.244.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 119.9.80.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 119.9.107.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 119.28.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 119.59.107.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 119.63.198.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 119.81.106.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 119.81.131.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 119.81.146.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 119.81.211.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 119.245.195.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 119.252.20.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 120.26.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 120.52.29.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 120.76.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 121.40.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 121.78.127.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 121.122.13.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 121.125.77.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 121.125.79.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 122.10.112.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 122.56.47.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 122.147.41.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 122.152.128.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 122.152.169.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 122.155.3.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 122.209.125.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 122.224.6.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 122.248.242.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 123.56.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 123.60.50.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 123.112.0.0/12 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 123.176.101.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 123.204.250.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 123.242.224.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 123.242.230.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 124.9.0.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 124.9.2.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 124.16.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 124.150.129.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 124.150.132.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 125.6.146.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 125.6.149.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 125.56.201.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 125.56.218.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 125.227.6.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 125.227.15.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 125.227.141.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 125.227.163.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 125.227.255.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 128.31.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 128.65.192.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 128.121.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 128.143.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 128.149.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 128.199.228.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 128.199.246.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 128.242.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 129.121.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 130.158.75.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 130.211.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 131.84.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 131.229.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 132.148.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 132.174.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 133.208.41.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 133.242.1.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 133.242.3.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 133.242.50.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 133.242.88.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 133.242.201.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 133.242.206.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 133.242.238.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 134.119.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 136.0.116.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 137.78.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 137.117.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 137.189.161.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 138.201.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 139.59.245.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 139.162.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 139.199.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 140.112.35.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 140.112.172.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 140.211.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 141.0.173.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 141.0.174.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 141.8.224.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 141.8.226.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 141.101.120.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 141.105.124.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 141.138.130.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 141.138.192.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 141.211.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 141.255.181.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 142.4.0.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 142.54.172.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 142.54.178.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 142.54.185.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 143.69.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 143.84.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 143.95.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 143.228.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 144.76.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 146.255.44.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 147.8.142.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 147.9.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 147.67.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 147.202.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 148.251.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 149.47.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 149.56.177.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 149.126.72.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 149.154.164.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 149.174.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 149.202.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 149.210.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 150.60.82.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 151.80.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 151.101.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 151.138.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 151.236.216.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 152.19.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 153.120.9.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 153.122.22.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 153.122.34.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 153.126.198.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 153.127.236.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 153.127.244.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 153.149.39.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 153.254.170.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 154.35.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 155.94.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 155.133.40.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 155.188.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 157.7.107.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 157.7.231.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 157.52.193.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 157.240.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 158.69.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 158.85.25.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 159.33.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 159.122.135.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 159.137.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 159.174.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 159.203.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 160.16.73.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 160.16.106.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 160.68.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 160.153.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 161.47.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 161.69.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.13.102.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.144.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.158.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.211.80.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.212.40.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.213.198.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.220.4.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.220.56.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.221.7.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.221.200.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.223.88.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.242.253.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.243.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.249.104.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.251.0.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.251.80.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.251.84.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.251.86.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.251.111.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.252.80.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.253.124.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.254.144.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.255.84.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 162.255.116.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 163.29.3.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 163.29.36.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 163.53.78.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 163.172.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 164.132.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 165.83.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 166.62.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 167.88.144.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 167.114.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 168.1.79.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 168.144.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 168.235.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 169.54.23.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 170.149.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 170.178.190.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 171.64.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 172.81.116.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 172.99.81.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 172.99.89.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 172.217.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.0.138.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.0.142.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.45.230.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.79.223.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.192.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.194.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.198.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.199.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.201.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.228.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.230.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.236.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.239.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.247.188.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.247.224.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.248.191.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.252.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.252.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.254.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.254.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.255.112.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 173.255.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 174.35.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 174.36.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 174.120.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 174.127.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 174.127.195.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 174.129.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 174.132.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 174.142.39.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 174.142.46.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 174.142.75.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 174.142.76.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 175.41.144.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 175.99.91.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 175.111.79.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 176.9.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 176.28.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 176.31.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 176.32.92.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 176.32.102.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 176.34.103.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 176.53.21.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 176.53.43.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 176.58.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 176.126.252.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 177.47.5.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 178.32.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 178.62.118.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 178.62.138.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 178.62.185.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 178.63.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 178.73.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 178.77.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 178.79.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 178.170.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 178.210.88.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 178.254.62.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 180.42.62.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 180.70.93.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 180.70.134.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 180.92.181.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 180.175.36.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 180.179.160.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 180.188.194.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 180.222.181.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 180.235.96.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 180.235.134.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 180.235.230.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 181.224.135.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 181.224.136.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 181.224.144.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 181.224.147.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 182.48.49.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 182.50.148.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 182.50.151.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 182.161.61.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 182.171.250.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 182.173.77.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 182.239.48.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 182.239.52.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 182.253.236.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 183.47.219.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 183.81.166.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 183.110.0.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 183.110.253.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 183.111.158.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 183.177.133.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 184.24.0.0/13 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 184.50.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 184.72.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 184.95.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 184.104.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 184.107.18.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 184.107.130.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 184.107.142.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 184.154.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 184.164.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 184.168.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 184.169.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 184.170.240.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 184.172.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 184.175.106.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.2.82.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.4.226.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.5.44.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.7.34.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.7.76.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.9.116.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.11.146.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.24.96.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.28.72.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.28.193.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.31.40.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.31.120.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.31.220.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.41.88.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.42.104.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.53.176.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.59.16.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.66.140.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.72.177.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.80.221.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.87.146.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.100.180.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.104.28.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 185.116.212.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 187.0.206.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 188.40.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 188.94.254.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 188.121.224.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 188.125.72.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 188.165.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 188.166.216.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 188.166.226.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 188.225.16.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 188.227.224.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.0.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.16.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.30.252.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.64.112.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.69.192.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.73.232.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.73.241.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.81.128.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.95.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.99.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.104.182.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.104.184.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.104.192.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.104.224.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.110.165.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.124.249.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.151.136.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.151.153.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.154.96.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.155.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.157.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.163.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.169.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.184.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.185.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.195.77.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.200.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.211.48.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.227.171.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.229.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.230.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.232.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.237.224.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.237.253.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.241.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.243.50.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.243.119.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.249.112.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.252.144.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 192.254.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 193.70.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 193.86.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 193.96.188.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 193.109.247.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 193.111.95.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 193.169.207.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 193.189.135.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 193.194.138.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 193.227.106.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 193.234.222.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 193.238.27.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 193.238.80.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 194.0.59.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 194.0.197.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 194.9.94.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 194.28.8.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 194.55.26.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 194.55.30.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 194.63.248.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 194.90.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 194.126.200.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 194.132.196.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 194.145.126.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 194.195.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 194.246.78.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.8.214.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.20.12.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.20.40.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.35.109.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.54.62.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.64.158.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.71.109.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.74.36.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.78.228.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.80.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.142.2.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.149.84.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.154.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.182.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.191.164.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 195.211.221.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 196.2.63.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.2.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.11.254.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.12.70.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.15.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.20.124.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.23.48.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.23.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.24.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.27.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.35.26.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.37.112.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.37.116.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.46.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.49.23.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.52.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.54.112.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.57.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.58.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.58.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.71.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.74.48.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.74.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.76.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.101.241.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.136.48.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.143.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.154.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.178.120.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.185.159.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.200.42.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.206.132.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.251.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.252.96.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.254.96.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 198.255.99.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.15.252.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.19.92.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.19.201.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.21.148.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.27.148.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.30.80.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.34.228.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.58.164.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.59.88.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.59.148.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.59.240.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.66.72.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.71.32.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.71.48.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.80.52.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.80.56.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.83.128.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.85.208.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.87.54.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.88.56.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.96.156.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.101.132.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.181.129.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.181.130.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.181.132.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.184.144.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.189.172.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.193.112.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.231.84.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.231.199.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.233.80.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.233.244.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 199.253.28.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.6.246.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.20.65.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.27.28.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.32.15.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.39.48.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.39.176.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.39.235.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.43.173.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.49.175.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.55.82.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.55.227.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.55.234.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.65.197.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.66.136.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.66.250.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.67.214.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.71.129.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.74.3.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.77.48.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.77.58.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.81.252.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.82.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.125.90.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.145.199.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.153.122.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.155.223.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.172.28.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.181.99.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.181.167.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.181.185.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.181.195.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.181.196.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.181.198.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.213.233.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.214.194.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.216.24.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 202.248.110.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.2.218.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.62.135.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.69.40.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.69.42.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.69.68.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.69.141.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.79.18.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.80.0.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.80.3.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.83.84.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.85.45.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.86.237.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.90.226.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.104.138.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.124.10.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.124.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.135.139.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.142.211.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.160.252.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.161.176.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.169.229.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.170.84.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.174.48.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.174.80.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.175.160.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.185.29.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.189.104.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.208.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.209.152.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.211.135.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 203.211.199.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.11.56.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.12.194.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.13.248.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.14.32.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.15.8.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.15.248.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.44.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.69.221.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.74.99.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.74.208.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.93.163.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.140.16.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.152.192.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.155.145.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.155.149.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.155.151.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.155.154.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.232.239.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.236.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.239.14.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 204.244.166.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.56.0.0/13 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.64.0.0/11 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.96.0.0/12 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.112.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.116.0.0/15 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.134.241.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.164.14.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.177.120.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.177.164.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.178.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.185.208.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.186.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.196.120.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.196.208.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.203.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.203.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 205.204.64.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 206.46.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 206.108.48.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 206.125.164.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 206.125.171.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 206.132.0.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 206.190.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 206.220.40.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 206.220.216.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 206.221.217.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.7.86.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.11.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.45.179.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.46.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.58.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.61.44.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.66.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.120.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.171.160.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.198.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.200.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.210.203.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.210.231.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.226.169.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.229.73.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 207.244.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.43.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.64.31.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.64.120.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.64.136.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.66.72.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.71.104.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.71.192.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.73.208.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.75.148.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.76.80.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.77.48.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.78.92.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.79.32.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.79.232.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.80.4.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.80.56.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.81.128.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.81.166.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.82.16.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.82.112.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.85.40.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.86.184.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.88.176.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.91.196.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.91.207.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.92.218.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.94.0.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.94.232.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.96.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.101.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.109.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.113.121.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.113.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.115.223.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.117.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.123.213.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.131.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 208.167.225.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.37.248.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.54.49.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.54.51.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.54.52.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.58.128.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.59.192.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.95.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.99.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.126.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.132.196.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.135.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.137.132.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.141.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.188.80.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.195.1.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.200.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.202.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.208.4.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.237.128.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.239.160.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 209.240.64.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.0.141.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.0.234.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.3.133.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.3.167.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.3.181.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.5.43.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.17.38.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.48.79.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.59.144.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.59.146.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.59.228.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.59.230.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.61.56.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.61.148.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.61.251.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.63.204.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.64.24.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.65.1.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.68.80.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.69.89.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.140.145.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.143.86.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.155.3.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.155.150.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.155.157.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.157.1.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.163.219.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.168.126.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.172.129.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.188.195.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.188.197.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.197.70.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.200.216.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.209.110.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.242.28.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.242.41.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.242.234.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 210.251.247.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 211.1.231.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 211.20.93.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 211.22.108.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 211.22.232.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 211.72.204.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 211.72.248.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 211.72.252.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 211.72.254.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 211.76.138.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 211.79.60.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 211.123.214.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 211.133.134.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 211.234.63.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 212.7.192.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 212.27.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 212.58.244.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 212.58.246.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 212.69.160.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 212.72.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 212.91.6.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 212.97.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 212.118.156.0/23 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 212.150.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 212.198.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 212.224.112.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 213.33.0.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 213.83.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 213.108.104.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 213.132.192.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 213.138.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 213.144.233.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 213.174.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 213.179.192.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 213.186.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 213.188.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 213.239.192.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.12.210.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.14.208.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.15.197.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.17.96.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.18.160.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.21.224.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.24.192.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.34.181.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.55.144.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.58.192.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.69.227.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.70.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.71.64.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.75.233.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.86.144.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.87.128.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.92.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.120.224.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.131.91.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.139.208.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.139.224.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.146.32.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.155.130.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.155.133.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.155.149.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.155.153.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.157.0.0/18 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.157.64.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.157.96.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.166.99.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.169.240.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.172.160.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.177.144.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.185.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.187.94.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.197.96.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.198.198.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.201.93.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.218.128.0/17 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.239.32.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.239.128.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 216.250.112.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 217.26.48.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 217.28.208.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 217.64.160.0/21 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 217.70.176.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 217.118.168.0/22 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 217.146.64.0/20 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 217.160.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 217.172.160.0/19 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 217.199.187.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 218.145.28.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 218.189.25.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 218.211.33.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 218.213.85.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 218.213.168.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 218.213.210.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 218.213.216.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 218.251.64.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 219.76.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 219.84.199.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 219.85.64.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 219.85.79.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 219.94.162.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 219.94.192.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 219.94.203.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 219.94.221.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 219.94.255.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 219.122.34.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 220.130.119.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 220.132.185.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 220.181.57.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 220.216.107.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 220.228.8.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 220.228.147.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 220.228.175.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 220.241.0.0/16 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 221.228.0.0/14 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 222.122.205.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 223.27.36.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 223.27.39.0/24 -j REDIRECT --to-ports 1090
+iptables -t nat -A SHADOWSOCKS -p tcp -d 223.203.224.0/22 -j REDIRECT --to-ports 1090
