@@ -107,6 +107,7 @@ for domain in domainlist:
 			reip = re.compile(r'(?<![\.\d])(?:\d{1,3}\.){3}\d{1,3}(?![\.\d])')
 			for ip in reip.findall(line):
 				print ip
+				ret.add(IP("%s/24"%(ip), make_net = True))
 				try:
 					url = 'https://wq.apnic.net/whois-search/query?searchtext=%s'%(ip)
 					apnic = urllib2.urlopen(url, timeout=1500).read()
